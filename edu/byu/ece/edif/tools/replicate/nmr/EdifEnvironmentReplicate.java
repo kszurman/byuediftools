@@ -306,6 +306,13 @@ public class EdifEnvironmentReplicate extends EdifEnvironmentCopy {
                     }
                 }
             }
+
+            // ***************
+            // XXX Workaround to get the tool working when some entity ports are not driven.
+            //     Otherwise such situation causes an exception since replicationType is null.
+            if (replicationType == null)
+                return null;
+            // ***************
             
             // 2. Determine driver connections
             
