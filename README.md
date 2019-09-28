@@ -1,4 +1,4 @@
-Thanks to @eddiehung for providing BYU EDIF Tools on the GitHub.
+Thanks to Eddie Hung for providing BYU EDIF Tools on the GitHub (https://github.com/eddiehung).
 ```
 BYU EDIF Tools is an API for creating, modifying, or analyzing EDIF netlists within the Java programming language. We are currently using this API to analyze EDIF netlists as a part of our FPGA reliability project. We intend to keep the API as general as possible to support other netlist analysis and manipulation activities.
 
